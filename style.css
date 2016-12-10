@@ -1,122 +1,110 @@
-
-nav{
-  background-color: orange;
-  border: 2px solid black;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+h1{
+  color: white;
+  font-size: 50px;
   position: relative;
-  bottom: 35px;
-  width: 100%;
-}
-
-nav ul{
-  margin:0;
-  padding-left:10px;
-  position: relative;
+  text-align: center;
+  top: 20px;
+  background-color: blue;
+  font-family: 'Acme', sans-serif;
 }
 nav li{
   display: inline-block;
   margin-right: 35px;
-}
-body{
-  background-color: white;
-}
-nav a{
-  display: inline-block;
-  text-decoration: none;
-  color: eee;
-}
-nav a:hover{
-  background-color: white;
-
-}
-nav a:visited{
-  color: red;
-}
-h1{
-  background-color:green;
-  width: 100%;
-  font-size: 45px;
   position: relative;
-  border: 2px solid black;
 }
 img{
-  height: 220px;
-  width: 165px;
-  float: left;
-  position: relative;;
-  padding-right: 10px;
+  height: 300px;
+  width: 244px;
+  position: relative;
+  box-shadow:  5px 0px 20px blue;
+}
+#container{
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
 }
 
-#ContactInfo{
-  margin-right: 0;
-  padding-left: 10px;
+nav{
   position: relative;
-
+  text-align: center;
 }
-#ContactInfo p{
-  margin: 10px;
-  bottom: 10px;
+#leftcolumn{
   position: relative;
+  width: 240px;
+  bottom: 5px;
+  border: 2px solid black;
 }
-h2{
-  font-family: Anton, sans-serif;
-}
-#Address{
+#maincolumn{
   position: relative;
-  margin-top: 5px;
+  width: 720px;
   float: right;
+  bottom: 820px;
+  left: 20px;
 }
-main li{
-  font-family: Rubik, sans-serif;
-}
-#Address p{
-  margin: 0;
-  bottom: 20px;
+#maincolumn2{
+  width: 720px;
   position: relative;
-
-}
-#Education{
-  position: relative;
-  bottom: 15px;
   float: right;
-}
-#Education h3{
-  margin: 0;
-  position: relative;
-  bottom: 15px;
-}
-#Education li{
-  position: relative;
-  bottom: 30px;
-}
-div{
-  position: relative;
-  bottom:198px;
-  margin-left: 15px;
-}
-#Experience{
-  float: left;
-  position: relative;
-  bottom: 270px;
-
-}
-#Experience h3{
-  margin: 0;
-  position: relative;
-  bottom: 10px;
-}
-#Experience h4{
-  position: relative;
-  bottom: 25px;
-}
-#Experience li{
-  position: relative;
-  bottom: 30px;
+  bottom: 820px;
+  left: 20px;
 }
 ul{
   list-style-type: none;
 }
-#ActivitiesHonors h2{
-  position: relative;
-  bottom: 25px;
+#ContactInfo{
+  text-align: center;
 }
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rubik" rel="stylesheet">
+#Address{
+  text-align: center;
+}
+#Education{
+  text-align: center;
+}
+h2{
+  font-family: 'Abril Fatface', cursive;
+  color: blue;
+}
+nav a:active{
+  color: blue;
+}
+nav a:visited{
+  color: purple;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  color: red;
+}
+#ContactInfo p{
+  margin: 10px;
+  position: relative;
+  bottom: 10px;
+}
+#Address p{
+  margin: 10px;
+  position: relative;
+  bottom: 10px;
+}
+#Education p{
+  margin: 10px;
+  position: relative;
+  bottom: 10px;
+}
+#Education li{
+  margin: 10px;
+  bottom: 10px;
+  position: relative;
+  right: 17px;
+}
+#Experience li{
+  margin: 10px;
+}
+#Experience p{
+  margin: 10px;
+}
+#maincolumn2 li{
+  margin: 10px;
+}
