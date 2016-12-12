@@ -8,6 +8,7 @@ h1{
   top: 20px;
   background-color: blue;
   font-family: 'Acme', sans-serif;
+  width: 960px;
 }
 nav li{
   display: inline-block;
@@ -24,6 +25,7 @@ img{
   max-width: 960px;
   margin: 0 auto;
   position: relative;
+  background-color: white;
 }
 
 nav{
@@ -107,4 +109,190 @@ nav a:hover{
 }
 #maincolumn2 li{
   margin: 10px;
+}
+video{
+  height: 400px;
+  width: 500px;
+  position: relative;
+  left: 230px;
+  background-color: black;
+}
+#indexcontainer{
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}
+#mainmenu{
+  position: relative;
+  width:20px;
+  float: right;
+  bottom: 1474px;
+  left: 608px;
+}
+#mainmenu a{
+  text-decoration: none;
+}
+#mainmenu li{
+  position: relative;
+  margin-left: 0px;
+  margin: 10px;
+}
+#mainmenu2{
+  position: relative;
+  float: right;
+  width: 20px;
+  right: 112px;
+  bottom: 7px;
+
+}
+#mainmenu2 a{
+  text-decoration: none;
+}
+#mainmenu2 li{
+  position: relative;
+  margin-left: 0px;
+  margin: 10px;
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+  color: blue;
+  position: relative;
+  left: 170px;
+  top: 15px;
+  font-size: 25.5px;
+}
+#aboutmediv{
+  width: 480px;
+  position: relative;
+  left: 230px;
+}
+#sportscontainer{
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}
+#mainmenu3{
+  position: relative;
+  float: right;
+  width: 20px;
+  right: 112px;
+  bottom: 7px;
+}
+#mainmenu3 a{
+  text-decoration: none;
+}
+#mainmenu3 li{
+  position: relative;
+  margin-left: 0px;
+  margin: 10px;
+}
+#indians{
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+article img{
+  position: relative;
+  height: 350px;
+  width: 650px;
+}
+#miami img{
+  position: relative;
+  top: 15px;
+}
+#miami strong{
+  position: relative;
+  top: 10px;
+}
+#miami{
+  position: relative;
+  left: 20px;
+}
+#miami2{
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+#comedy{
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+}
+#mainmenu4{
+  position: relative;
+  float: right;
+  width: 20px;
+  right: 112px;
+  bottom: 7px;
+}
+#mainmenu4 a{
+  text-decoration: none;
+}
+#mainmenu4 li{
+  position: relative;
+  margin-left: 0px;
+  margin: 10px;
+}
+div #turkey{
+  position: relative;
+  max-width: 820px;
+  margin: 0;
+  left: 30px;
+}
+h4{
+  position: relative;
+  text-decoration: underline;
+  font-size: 20px;
+  top: 10px;
+}
+#mainmenu4 strong{
+  text-decoration: underline;
+}
+#mainmenu3 strong{
+  text-decoration: underline;
+}
+#mainmenu strong{
+  text-decoration: underline;
+}
+#mainmenu2 strong{
+  text-decoration: underline;
+}
+#mainmenu4 a:active{
+  color: blue;
+}
+#mainmenu3 a:active{
+  color: blue;
+}
+#mainmenu2 a:active{
+  color:blue;
+}
+#mainmenu a:active{
+  color: blue;
+}
+#mainmenu a:visited{
+  color: purple;
+}
+#mainmenu2 a:visited{
+  color: purple;
+}
+#mainmenu3 a:visited{
+  color: purple;
+}
+#mainmenu4 a:visited{
+  color: purple;
+}
+#indians strong{
+  text-decoration: underline;
+  font-size: 20px;
+}
+#miami strong{
+  text-decoration: underline;
+  font-size: 20px;
+}
+#miami2 strong{
+  text-decoration: underline;
+  font-size: 20px;
 }

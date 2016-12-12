@@ -1,0 +1,110 @@
+h1{
+  color: white;
+  font-size: 50pt;
+  position: relative;
+  text-align: center;
+  top: 20pt;
+  background-color: blue;
+  font-family: sans-serif;
+  width: 960pt;
+}
+img{
+  height: 300pt;
+  width: 244pt;
+  position: relative;
+  box-shadow:  5px 0px 20px blue;
+  left:20pt;
+}
+#container{
+  max-width: 960pt;
+  border: 0;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+}
+#leftcolumn{
+  position: relative;
+  max-width: 240pt;
+  bottom: 5pt;
+  border: 2pt solid black;
+  background: transparent;
+  overflow: hidden;
+  left: 20pt;
+}
+#maincolumn{
+  position: relative;
+  max-width: 675pt;
+  float: right;
+  bottom: 670pt;
+  left: 18pt;
+  background: transparent;
+  overflow: hidden;
+}
+#maincolumn2{
+  width: 675pt;
+  position: relative;
+  float: right;
+  bottom: 670pt;
+  left: 18pt;
+  background: transparent;
+  overflow: hidden;
+}
+ul{
+  list-style-type: none;
+}
+#ContactInfo{
+  text-align: center;
+  background: transparent;
+}
+#Address{
+  text-align: center;
+}
+#Education{
+  text-align: center;
+}
+h2{
+  font-family: serif; cursive;
+  color: blue;
+}
+#ContactInfo p{
+  margin: 10pt;
+  position: relative;
+  bottom: 10pt;
+}
+#Address p{
+  margin: 10pt;
+  position: relative;
+  bottom: 10pt;
+}
+#Education p{
+  margin: 10pt;
+  position: relative;
+  bottom: 10pt;
+}
+#Education li{
+  margin: 10pt;
+  bottom: 10pt;
+  position: relative;
+  right: 17pt;
+}
+#Experience li{
+  margin: 10pt;
+}
+#Experience p{
+  margin: 10pt;
+}
+#maincolumn2 li{
+  margin: 10pt;
+}
+#mainmenu{
+  display:none;
+}
+nav{
+  display: none;
+}
+li{
+  font-size: 12pt;
+}
+p{
+  font-size: 12pt;
+}
