@@ -110,11 +110,11 @@ nav a:hover{
 #maincolumn2 li{
   margin: 10px;
 }
-video{
-  height: 400px;
-  width: 500px;
+iframe{
+  height: 460px;
+  width: 800px;
   position: relative;
-  left: 230px;
+  left: 53px;
   background-color: black;
 }
 #indexcontainer{
