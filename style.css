@@ -23,6 +23,7 @@ img{
 }
 #container{
   max-width: 960px;
+  min-width: 950px;
   margin: 0 auto;
   position: relative;
   background-color: white;
@@ -119,6 +120,7 @@ iframe{
 }
 #indexcontainer{
   max-width: 960px;
+  min-width: 940px;
   position: relative;
   margin: 0 auto;
   background-color: white;
@@ -169,6 +171,7 @@ h3{
 }
 #sportscontainer{
   max-width: 960px;
+  min-width: 940px;
   position: relative;
   margin: 0 auto;
   background-color: white;
@@ -217,6 +220,7 @@ article img{
 }
 #comedy{
   max-width: 960px;
+  min-width: 940px;
   position: relative;
   margin: 0 auto;
   background-color: white;

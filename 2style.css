@@ -17,6 +17,7 @@ img{
 }
 #container{
   max-width: 960pt;
+  min-width: 940pt;
   border: 0;
   margin: 0 auto;
   position: relative;
@@ -24,7 +25,7 @@ img{
 }
 #leftcolumn{
   position: relative;
-  max-width: 240pt;
+  width: 240pt;
   bottom: 5pt;
   border: 2pt solid black;
   background: transparent;
@@ -33,7 +34,7 @@ img{
 }
 #maincolumn{
   position: relative;
-  max-width: 675pt;
+  width: 675pt;
   float: right;
   bottom: 670pt;
   left: 18pt;
