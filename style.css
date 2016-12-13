@@ -160,14 +160,13 @@ h3{
   font-family: 'Abril Fatface', cursive;
   color: blue;
   position: relative;
-  left: 170px;
   top: 15px;
   font-size: 25.5px;
 }
 #aboutmediv{
   width: 480px;
   position: relative;
-  left: 230px;
+  left: 20px;
 }
 #sportscontainer{
   max-width: 960px;
@@ -299,4 +298,14 @@ h4{
 #miami2 strong{
   text-decoration: underline;
   font-size: 20px;
+}
+#cws{
+  position: relative;
+  float: right;
+  bottom: 355px;
+  right: 75px;
+}
+#cws img{
+  width: 320px;
+  height: 350px;
 }
